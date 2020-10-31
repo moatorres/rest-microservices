@@ -1,0 +1,37 @@
+{
+  "name": "videos-api",
+  "description": "This project was made with ❤️ by Moa Torres",
+  "version": "0.0.1",
+  "author": "Moa Torres (https://github.com/moatorres)",
+  "license": "UNLICENSED",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0",
+    "dotenv": "^8.2.0",
+    "rimraf": "^3.0.2",
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moatorres/rest-microservices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moatorres/rest-microservices/issues"
+  }
+}
